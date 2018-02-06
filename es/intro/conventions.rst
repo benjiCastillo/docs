@@ -29,7 +29,7 @@ URL en minúscula. Por ejemplo: a ``UsuariosController`` (que debería estar
 definido en **UsuariosController.php**) se puede acceder desde
 http://example.com/usuarios.
 
-Aunque puedes enrutar controladores de múltiples palabaras de la forma que
+Aunque puedes enrutar controladores de múltiples palabras de la forma que
 desees, la convención es que tus URLs separen las palabras con guiones utilizando
 la clase ``DashedRoute``, de este modo ``/categorias-articulos/ver-todas`` es
 la forma correcta para acceder a la acción ``CategoriasArticulosController::verTodas()``.
